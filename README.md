@@ -14,6 +14,14 @@ Stats fundamentals were used to see the changes in data, and Machine Learning fu
 * SciPy
 * Scikit-learn
 
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458.svg?style=for-the-badge&logo=Pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=NumPy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C.svg?style=for-the-badge&logo=&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6.svg?style=for-the-badge&logo=SciPy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
 ## Order of Execution and Expected Outputs
 1. Navigate to the Source-Code/Cleaning directory and run all 4 data cleaning scripts in the directory. As an example, to run clean_2020_data.py, execute the command: _python3 clean_2020_data.py_. Once complete, inside the Clean-Data directory, there should be 4 clean versions of the raw data sets found in the Raw-Data directory.
 2. Navigate to the Source-Code/Stats directory and execute the chi2.py script using the command: _python3 chi2.py_. This will print the p-value of the chi2 analysis between the catergories year and financially independent.
