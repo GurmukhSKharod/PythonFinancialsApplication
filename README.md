@@ -5,7 +5,9 @@ It manipulates data from several csv files, to determine trends in different fin
 
 Stats fundamentals were used to see the changes in data, and Machine Learning fundamentals such as linear/polynomial regression was used to predict future data.
 
-## Required External Libraries
+## External Libraries and Technologies Used
+* Python
+* Jupyter Notebook
 * Pandas
 * NumPy
 * Matplotlib
