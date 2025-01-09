@@ -4,7 +4,6 @@ import pathlib
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
-#Gurmukh wrote this
 # Alternative function to drop rows with zero values
 def drop_zeros(d: pd.DataFrame):
     return d[(d[['Total Assets', 'Total Debt', 'Annual Expenses', 'Total Income', 'Annual Withdrawal Rate', 'Annual Withdrawal Amount']] != 0).any(axis=1)].reset_index(drop=True)
