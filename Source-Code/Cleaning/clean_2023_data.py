@@ -4,7 +4,6 @@ import pathlib
 import os
 
 
-#Jostin made this
 def get_data(parent):
     dir = pathlib.Path(parent/ 'Raw-Data')
     data = pd.read_csv(dir/'Reddit Financial Independence 2023 Survey - CLEAN.xlsx - Responses.csv', header=None)
@@ -27,7 +26,6 @@ def del_columns(data):
     data = data[keep]
     return data
 
-# I tried to keep the column names and categories as close as possible
 def set_column_names(data):
     cols = ['Number of Contributors', 'Reside in US', 'Currency Used', 'Age', 'Relationship Status',
                'Children Currently', 'Children Desired', 
@@ -68,7 +66,6 @@ def to_USD(data):
     data = data.drop('conversion', axis =1)
     return data
 
-#Jostin made this too
 def create_csv(parent_dir, data: pd.DataFrame):
     dir = pathlib.Path(parent_dir/'Clean-Data')
     os.makedirs(dir, exist_ok=True)
